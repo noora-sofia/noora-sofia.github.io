@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="container">
+    <article class="post">
+        <div class="post-date">{{ .Date.Format "2006/01/02" }}</div>
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+    </article>
+
+    {{ if or .PrevInSection .NextInSection }}
+    <div class="prev-next-nav" style="margin-top: 40px; display: flex; gap: 16px; justify-content: flex-start;">
+      {{ if .PrevInSection }}
+        <a class="prev-post-link" href="{{ .PrevInSection.RelPermalink }}">&#8592; {{ .PrevInSection.Title }}</a>
+      {{ end }}
+      {{ if .NextInSection }}
+        <a class="next-post-link" href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title }} &#8594;</a>
+      {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}

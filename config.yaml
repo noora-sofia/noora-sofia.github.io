@@ -1,0 +1,16 @@
+baseURL: 'http://localhost:1313'
+languageCode: 'en-us'
+title: 'gustibimo'
+theme: 'clean-blog'
+
+params:
+  description: 'Your site description here'
+
+menu:
+  main:
+    - name: 'Home'
+      url: '/'
+      weight: 1
+    - name: 'About'
+      url: '/about/'
+      weight: 2

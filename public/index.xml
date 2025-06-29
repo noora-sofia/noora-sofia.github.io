@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Today I Learned</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Today I Learned</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jun 2025 09:36:10 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ai at Work</title>
+      <link>//localhost:1313/posts/ai-at-work/</link>
+      <pubDate>Sun, 29 Jun 2025 09:36:10 +0700</pubDate>
+      <guid>//localhost:1313/posts/ai-at-work/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crafting Leadership</title>
+      <link>//localhost:1313/posts/crafting-leadership/</link>
+      <pubDate>Sun, 29 Jun 2025 09:36:00 +0700</pubDate>
+      <guid>//localhost:1313/posts/crafting-leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Breaking the Cycle: Why Indonesia&#39;s Microenterprises Need More Than Resilience</title>
+      <link>//localhost:1313/posts/breaking-the-cycle/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/breaking-the-cycle/</guid>
+      <description>&lt;p&gt;Many of Indonesia&amp;rsquo;s microbusinesses are stuck in a cycle of low productivity—not because of a lack of effort, but because they lack the tools, knowledge, and support to grow. By focusing on helping the most promising microbusinesses scale into strong small enterprises, we can create more meaningful progress and prosperity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First App</title>
+      <link>//localhost:1313/posts/building-my-first-app/</link>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/building-my-first-app/</guid>
+      <description>&lt;p&gt;Many of Indonesia&amp;rsquo;s microbusinesses are stuck in a cycle of low productivity—not because of a lack of effort, but because they lack the tools, knowledge, and support to grow. By focusing on helping the most promising microbusinesses scale into strong small enterprises, we can create more meaningful progress and prosperity.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

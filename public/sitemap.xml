@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-06-29T09:39:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/ai-at-work/</loc>
+    <lastmod>2025-06-29T09:36:10+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-06-29T09:36:10+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/crafting-leadership/</loc>
+    <lastmod>2025-06-29T09:36:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/about/</loc>
+    <lastmod>2025-06-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/breaking-the-cycle/</loc>
+    <lastmod>2025-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/building-my-first-app/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+  </url>
+</urlset>
