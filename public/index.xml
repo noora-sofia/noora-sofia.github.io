@@ -23,6 +23,13 @@
       <description></description>
     </item>
     <item>
+      <title>About</title>
+      <link>//localhost:1313/about/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;p&gt;Welcome!&lt;/p&gt;&#xA;&lt;p&gt;This site is a collection of notes, thoughts, and lessons learned by Gusti Bimo. Here you&amp;rsquo;ll find insights on technology, leadership, and personal growth, all written to help others learn and grow.&lt;/p&gt;&#xA;&lt;p&gt;Feel free to reach out or connect if you have questions or want to discuss any of the topics here.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Breaking the Cycle: Why Indonesia&#39;s Microenterprises Need More Than Resilience</title>
       <link>//localhost:1313/posts/breaking-the-cycle/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>

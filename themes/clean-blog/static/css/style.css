@@ -15,25 +15,32 @@ body {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 10px 10px 0 10px;
 }
 
 /* Header */
 .header {
-    background-color: #fff;
-    border-bottom: 1px solid #eee;
+    background: #fff;
+    border-bottom: 0px dotted #e0e0e0;
+    margin-bottom: 0;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 18px 0 0 0;
 }
 
 .site-title {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    display: inline-block;
+    padding-right: 10px;
 }
 
 .site-title a {
@@ -47,43 +54,57 @@ body {
 }
 
 .nav-link {
-    color: #666;
+    color: #6c63b5;
+    margin-left: 18px;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.2s;
 }
 
+.footer-text {
+    text-align: center;
+    color: #222;
+    font-size: 16px;
+    padding: 18px 0 8px 0;
+}
+
 .nav-link:hover {
-    color: #333;
+    text-decoration: underline;
 }
 
 /* Dotted line */
 .dotted-line {
     border: none;
-    border-top: 1px dotted #ccc;
-    width: 90%;
-    max-width: 700px;
-    margin: 16px auto 0 auto;
-    display: block;
+    border-top: 2.5px dotted #e0e0e0;
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    top: 8px;
+    z-index: 1;
 }
 
 /* Main content */
 .main-content {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 /* Post items */
 .post-item {
-    margin-bottom: 40px;
-    padding: 20px 0;
+    background: #fff;
+    border-radius: 6px;
+    padding: 0 0 12px 0;
+    margin-bottom: 32px;
+    border: none;
+    box-shadow: none;
 }
 
 .post-item.pinned-post {
-    background-color: #fff9c4;
-    border: 1px solid #f7e98e;
-    padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 4px;
+    background: #ffffcc;
+    border: 1px solid #ffe28a;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 28px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 .post-date {
@@ -92,10 +113,26 @@ body {
     margin-bottom: 8px;
 }
 
+.post-item .post-date {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.pinned-post .post-date {
+    color: #888;
+    font-weight: 500;
+}
+
 .post-title {
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 600;
     margin-bottom: 12px;
+}
+
+.post-item .post-title {
+    font-size: 14px;
+    margin: 0 0 2px 0;
 }
 
 .post-title a {
@@ -107,9 +144,35 @@ body {
     text-decoration: underline;
 }
 
+.post-item .post-title a {
+    color: #2d2d8a;
+    text-decoration: underline;
+}
+
 .post-summary {
     color: #555;
     line-height: 1.6;
+}
+
+.post-item .post-summary {
+    color: #444;
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.pinned-post .post-summary {
+    margin-top: 8px;
+}
+
+/* Add separator line between regular posts, but not after the last one */
+.post-item:not(.pinned-post) {
+  position: relative;
+}
+.post-item:not(.pinned-post):not(:last-child)::after {
+  content: "";
+  display: block;
+  border-top: 2px dotted #e0e0e0;
+  margin: 24px 0 0 0;
 }
 
 /* Single post */
@@ -161,22 +224,85 @@ body {
     color: #004499;
 }
 
+/* Previous post link */
+.prev-next-nav {
+  margin-top: 40px;
+  text-align: left;
+}
+.prev-post-link {
+  display: inline-block;
+  background: #f7f7fb;
+  border: 1px solid #d1d1e0;
+  border-radius: 6px;
+  color: #2d2d8a;
+  font-size: 18px;
+  padding: 12px 18px;
+  text-decoration: underline;
+  transition: background 0.2s, border 0.2s;
+}
+.prev-post-link:hover {
+  background: #eaeaf6;
+  border-color: #b3b3cc;
+}
+
+.next-post-link {
+  display: inline-block;
+  background: #f7f7fb;
+  border: 1px solid #d1d1e0;
+  border-radius: 6px;
+  color: #2d2d8a;
+  font-size: 18px;
+  padding: 12px 18px;
+  text-decoration: underline;
+  transition: background 0.2s, border 0.2s;
+  margin-left: 0;
+}
+.next-post-link:hover {
+  background: #eaeaf6;
+  border-color: #b3b3cc;
+}
+
 /* Footer */
 .footer {
-    margin-top: 60px;
-    padding: 20px 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.footer-text {
+    text-align: center;
+    color: #222;
+    font-size: 16px;
+    padding: 18px 0 8px 0;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
     .header-content {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        text-align: left;
+    }
+    .site-title {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        padding-right: 0;
+        width: auto;
+        display: block;
+        text-align: left;
     }
     
     .nav {
-        gap: 20px;
+        width: auto;
+        justify-content: flex-end;
+        gap: 16px;
+        margin-top: 0;
+        display: flex;
+    }
+    .nav-link {
+        font-size: 15px;
+        margin-left: 0;
     }
     
     .container {
