@@ -2,38 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Today I Learned</title>
-    <link>//localhost:54128/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Today I Learned</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Jun 2025 09:36:10 +0700</lastBuildDate>
-    <atom:link href="//localhost:54128/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai at Work</title>
-      <link>//localhost:54128/posts/ai-at-work/</link>
-      <pubDate>Sun, 29 Jun 2025 09:36:10 +0700</pubDate>
-      <guid>//localhost:54128/posts/ai-at-work/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Crafting Leadership</title>
-      <link>//localhost:54128/posts/crafting-leadership/</link>
-      <pubDate>Sun, 29 Jun 2025 09:36:00 +0700</pubDate>
-      <guid>//localhost:54128/posts/crafting-leadership/</guid>
-      <description></description>
+      <title>Waldorf Education in the Netherlands</title>
+      <link>//localhost:1313/posts/waldorf-education-netherlands/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/waldorf-education-netherlands/</guid>
+      <description>&lt;p&gt;The Netherlands is known for its diverse and high-quality education system, and one of the most unique approaches offered is the Waldorf education method. This educational philosophy, based on the teachings of Rudolf Steiner, focuses on a holistic approach to learning, nurturing the intellectual, emotional, and practical capacities of children.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Breaking the Cycle: Why Indonesia&#39;s Microenterprises Need More Than Resilience</title>
-      <link>//localhost:54128/posts/breaking-the-cycle/</link>
+      <link>//localhost:1313/posts/breaking-the-cycle/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:54128/posts/breaking-the-cycle/</guid>
+      <guid>//localhost:1313/posts/breaking-the-cycle/</guid>
       <description>&lt;p&gt;Many of Indonesia&amp;rsquo;s microbusinesses are stuck in a cycle of low productivity—not because of a lack of effort, but because they lack the tools, knowledge, and support to grow. By focusing on helping the most promising microbusinesses scale into strong small enterprises, we can create more meaningful progress and prosperity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>First App</title>
-      <link>//localhost:54128/posts/building-my-first-app/</link>
+      <link>//localhost:1313/posts/building-my-first-app/</link>
       <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:54128/posts/building-my-first-app/</guid>
+      <guid>//localhost:1313/posts/building-my-first-app/</guid>
       <description>&lt;p&gt;Many of Indonesia&amp;rsquo;s microbusinesses are stuck in a cycle of low productivity—not because of a lack of effort, but because they lack the tools, knowledge, and support to grow. By focusing on helping the most promising microbusinesses scale into strong small enterprises, we can create more meaningful progress and prosperity.&lt;/p&gt;</description>
     </item>
   </channel>
