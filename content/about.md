@@ -4,7 +4,7 @@ date = "2025-06-29"
 draft = false
 +++
 
-### Hello, I'm Gusti Bimo.
+### Hello, I'm Noora.
 
 I'm a lifelong learner with a passion for technology, leadership, and personal growth. This website is my digital garden—a place where I share my thoughts, experiments, and lessons learned.
 
