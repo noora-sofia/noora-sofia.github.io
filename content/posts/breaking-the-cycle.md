@@ -1,7 +1,7 @@
 ---
 title: "Breaking the Cycle: Why Indonesia's Microenterprises Need More Than Resilience"
 date: 2025-05-30
-pinned: true
+pinned: false
 draft: false
 ---
 
